@@ -1,0 +1,230 @@
+@charset "utf-8";html{background-color:#fff;color:#000;font-size:12px}
+body,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,figure,form,fieldset,legend,input,textarea,button,p,blockquote,th,td,pre,xmp{margin:0;padding:0}
+body,input,textarea,button,select,pre,xmp,tt,code,kbd,samp{line-height:1.5;font-family:tahoma,arial,"Hiragino Sans GB",simsun,sans-serif}
+h1,h2,h3,h4,h5,h6,small,big,input,textarea,button,select{font-size:100%}
+h1,h2,h3,h4,h5,h6{font-family:tahoma,arial,"Hiragino Sans GB","微软雅黑",simsun,sans-serif}
+h1,h2,h3,h4,h5,h6,b,strong{font-weight:normal}
+address,cite,dfn,em,i,optgroup,var{font-style:normal}
+table{border-collapse:collapse;border-spacing:0;text-align:left}
+caption,th{text-align:inherit}
+ul,ol,menu{list-style:none}
+fieldset,img{border:0}
+img,object,input,textarea,button,select{vertical-align:middle}
+article,aside,footer,header,section,nav,figure,figcaption,hgroup,details,menu{display:block}
+audio,canvas,video{display:inline-block;*display:inline;*zoom:1}
+blockquote:before,blockquote:after,q:before,q:after{content:"\0020"}
+textarea{overflow:auto;resize:vertical}
+input,textarea,button,select,a{outline:0 none}
+button::-moz-focus-inner,input::-moz-focus-inner{padding:0;border:0}
+mark{background-color:transparent}
+a,ins,s,u,del{text-decoration:none}
+sup,sub{vertical-align:baseline}
+a{color:#0069ca}
+a:hover{text-decoration:none;color:#f60}
+.clear{clear:both}
+@media screen and (min-width:1235px){.q_header .q_header_main,.q_page,.l_s175m770{width:1200px!important}
+.l_s175m770 .l_m770{width:1040px!important}
+}
+.g-uf-module-ctn-center{width:752px;float:left}
+.g-uf-module-ctn-right{width:272px;float:right;display:none}
+.g-uf-module-ctn-bottom{width:1040px;float:left;display:none}
+.g-uf-module-ctn-spacing{width:16px;height:10px;float:left}
+.g-uf-module-ctn-center-1 .right{float:left;width:288px}
+.g-uf-module-ctn-center-1 .left{float:left;width:464px}
+.g-uf-module-ctn-center-2 .right{float:left;width:288px}
+.g-uf-module-ctn-center-2 .left{float:left;width:464px}
+.g-uf-module-area{float:left;margin-bottom:16px}
+.g-main-ctn .funcs a{color:#999;text-decoration:none}
+.ui-uf-button{display:inline-block;border:solid 1px #dddede;background:#fff;height:24px;line-height:24px;padding:0 15px;cursor:pointer;border-radius:2px;font-size:12px;color:#666}
+.ui-uf-button-dull{border:solid 1px #c2c2c2;background:#f2f2f2;color:#999}
+.ui-uf-button-active{border:none 0;height:26px;line-height:24px;*line-height:26px;color:#fff;font-weight:bold;background:#ff8200}
+.ui-uf-button-active:hover{background:#ff9c00}
+.ui-uf-button-link{border:none 0;background:transparent}
+.ui-uf-button-dull:hover{color:#666;background:#fafafa}
+.g-currency{color:#666;font-family:arial}
+.g-currency.showy{color:#f60}
+.g-currency.integer{font-size:30px}
+.g-currency.decimals{font-size:18px}
+.g-currency.yuan{font-size:12px;color:#999;display:inline-block;position:relative;bottom:2px}
+.m-uf-userinfo-head{display:block;float:left;position:relative;width:96px;height:96px}
+.m-uf-userinfo-head img{display:block}
+.m-uf-userinfo-edit-head{position:absolute;bottom:0;left:0;width:100%;height:24px;line-height:24px;text-align:center;font-size:14px;color:#fff;background:#333;filter:alpha(opacity=70);-moz-opacity:.7;opacity:.7;cursor:pointer;display:none}
+.m-uf-userinfo-name{float:left;width:130px;margin-left:10px;font-size:16px;color:#333;overflow:visible;white-space:nowrap}
+.m-uf-userinfo-safegrade{float:left;margin:10px 0 0 10px}
+.m-uf-userinfo-phone,.m-uf-userinfo-identity{margin-top:17px;width:100%;height:15px;line-height:15px;position:relative;font-size:12px;color:#555}
+.m-uf-userinfo-phone .title{padding-left:17px}
+.m-uf-userinfo-identity .title{padding-left:20px}
+.m-uf-userinfo-phone .edit{margin-right:3px}
+.m-uf-userinfo-phone .edit,.m-uf-userinfo-identity .edit{position:absolute;top:0;right:0;color:#999;cursor:pointer}
+.m-uf-userinfo-phone .uncertain,.m-uf-userinfo-identity .uncertain{color:#999}
+.m-uf-userinfo-phone .edit-tip{position:relative;border:1px solid #ccc;line-height:25px;padding:0 10px 0 7px;margin-left:8px;margin-top:-6px;display:inline-block;*zoom:1}
+.m-uf-userinfo-phone .edit-tip .edit-tip-arrow,.m-uf-userinfo-phone .edit-tip .edit-tip-arrow-overlay{position:absolute;left:-7px;top:6px;border:6px solid transparent;*border-color:blue;*filter:chroma(color=blue);*font-size:0;*height:0;*overflow:hidden;border-left:none;border-right:6px solid #ccc}
+.m-uf-userinfo-wide .m-uf-userinfo-phone .edit-tip{margin:10px 3px 10px 0;padding:4px;background:#fffedf;line-height:22px;border-color:#f8d3a7}
+.m-uf-userinfo-wide .m-uf-userinfo-phone .edit-tip .edit-tip-arrow,.m-uf-userinfo-wide .m-uf-userinfo-phone .edit-tip .edit-tip-arrow-overlay{display:none}
+.m-uf-userinfo-phone .edit-tip .edit-tip-arrow-overlay{left:-6px;border-right:6px solid #fff}
+.m-uf-userinfo-phone{margin-left:3px;background:url(http://simg1.qunarzz.com/usercenter/homepage/icon_phone.png) no-repeat 0 1px}
+.m-uf-userinfo-identity{background:url(http://source.qunarzz.com/site/images/pay/useraccount/page/index/auth-gray-new.png) no-repeat;background-size:16px 16px}
+.m-uf-userinfo-phone a:hover,.m-uf-userinfo-identity a:hover{color:#0088a4}
+.m-uf-userinfo-wide{padding-top:16px}
+.m-uf-userinfo-wide .m-uf-userinfo-name{margin-top:4px}
+.m-uf-userinfo-narrow{float:left;padding-top:16px}
+.m-uf-userinfo-narrow .column{float:left;padding:0 16px 0 16px}
+.m-uf-userinfo-narrow .vertical-line{float:left;width:1px;height:47px;background:#e8e8e8}
+.m-uf-userinfo-narrow .head{padding-left:0}
+.m-uf-userinfo-narrow .identity{padding:0 0 0 16px}
+.m-uf-userinfo-narrow .m-uf-userinfo-basic .m-uf-userinfo-name{width:105px;margin-top:14px;height:16px;line-height:16px}
+.m-uf-userinfo-narrow .m-uf-userinfo-phone{width:258px;margin-left:0}
+.m-uf-userinfo-narrow .m-uf-userinfo-identity{width:231px}
+.m-uf-userinfo-narrow .m-uf-userinfo-head{position:relative;width:47px;height:47px}
+.m-uf-userinfo-narrow .m-uf-userinfo-edit-head{height:19px;line-height:19px;font-size:10px}
+.b_fpanel{position:absolute;z-index:1000}
+.b_fpanel .container{padding:5px;background:url(http://simg1.qunarzz.com/common/translucent/trans20_png24.png) 0 0 repeat;_filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#33000000,endColorstr=#33000000)}
+.e_title{padding:6px 8px 6px 10px;background-color:#eee}
+.e_title .close{float:right;display:block;width:11px;height:11px;margin-top:5px;background:url(http://simg1.qunarzz.com/ugc/ucenter/icons/icon_close.png) no-repeat 0 0;text-indent:-9999em}
+.e_title .title_txt{font-weight:bold;font-size:14px;line-height:22px}
+.b_fpanel .container .btns .button,.canc_button{display:inline-block;height:30px;width:79px;color:#fff;font:14px/30px "Hiragino Sans GB",SimSun,sans-serif;text-align:center;margin-right:10px;background:url(http://simg1.qunarzz.com/ugc/ucenter/user_basic.png) 0 0 no-repeat;cursor:pointer}
+.b_fpanel .container .btns .button:hover{background-position:-81px 0}
+.b_fpanel .container .btns .canc_button{color:#666;background:url(http://simg1.qunarzz.com/ugc/ucenter/user_basic.png) -162px 0 no-repeat;cursor:pointer}
+.uimg .inner{width:734px;padding-bottom:30px;position:relative}
+.uimg .content_wrap{padding-left:50px}
+.uimg .bigimg{vertical-align:middle;height:300px;width:300px;border:1px solid #f0f0f0}
+.uimg .c_confirm{position:absolute;display:inline-block;top:474px;left:372px;height:30px;width:105px;text-align:center;vertical-align:middle;font-size:14px;line-height:30px;color:#555;cursor:pointer;background:url(http://simg1.qunarzz.com/ugc/ucenter/user_basic.png) 0 -85px no-repeat}
+.m-uf-recommend{margin-top:16px;float:left;overflow:hidden;background:#fcfdfd}
+.m-uf-recommend-wide{width:240px}
+.m-uf-recommend-narrow{width:229px}
+.m-uf-recommend-spacing{width:15px;height:100px;margin-top:16px;float:left}
+.m-uf-recommend img{border:none 0}
+.m-uf-recommend .rec-title{padding:19px 0 11px 9px}
+.m-uf-recommend .rec-title a{color:#666;font-size:14px;font-weight:bold}
+.m-uf-recommend .rec-title a:hover{color:#f60}
+.m-uf-recommend .desc{padding-left:9px;color:#aaa;font-size:12px}
+.m-uf-recommend .desc a{color:#aaa;font-size:12px}
+.m-uf-recommend .prices{width:100%;height:16px;position:relative}
+.m-uf-recommend .oprice{padding-top:5px;padding-left:9px;font-size:12px;color:#aaa}
+.m-uf-recommend .oprice span{text-decoration:line-through}
+.m-uf-recommend .price{position:absolute;top:0;right:0;font-size:20px;color:#f55;font-family:arial;font-weight:bold}
+.m-uf-account{padding-top:24px}
+.m-uf-account #m-uf-account-recharge{margin:0 20px}
+.m-uf-account-unactivated{padding-top:20px}
+.m-uf-account-unactivated .line{white-space:nowrap;margin-bottom:15px}
+.m-uf-account-unactivated .money-ctn{float:left}
+.m-uf-account-unactivated .btn-ctn{float:left;padding-top:5px}
+.m-uf-account-unactivated .btn-ctn .ui-uf-button{margin:0 10px}
+.m-uf-account-unactivated .adv-img{position:absolute;left:0;bottom:16px;width:427px;height:115px;background:0 15px no-repeat}
+.m-uf-account-unactivated .advice{float:left;padding-top:13px}
+.m-uf-account .money-ctn{float:left}
+.m-uf-account .btn-ctn{float:left;padding-top:6px}
+.m-uf-account em,.m-uf-account-unactivated em{padding:0 4px;font-style:normal;font-weight:bold;color:#666}
+.m-uf-credit{padding-top:16px;white-space:nowrap}
+.m-uf-credit .money-ctn{float:left}
+.m-uf-credit .btn-ctn{float:left;padding-top:3px}
+.m-uf-credit .info{float:left;height:37px;position:relative}
+.m-uf-credit .info span{display:inline-block;position:absolute;bottom:9px}
+.m-uf-credit .subtitle{padding-top:8px}
+.m-uf-credit .details{overflow:hidden;white-space:nowrap;margin-top:7px}
+.m-uf-credit .details .info{display:inline-block}
+.m-uf-credit #m-uf-credit-repayment{margin:0 8px 0 15px;position:relative;top:-5px}
+.m-uf-credit .limit,.m-uf-credit .indent{padding:0 3px 0 3px;font-size:14px;color:#333;font-weight:bold;font-family:arial}
+.m-uf-credit em{padding:0 4px;font-style:normal;font-weight:bold;color:#666}
+.m-uf-credit .ui-uf-button{margin:0 20px}
+.m-uf-credit-unactive .details a{color:#0069ca;border-bottom:dotted 1px #0069ca}
+.m-uf-financial{padding-top:22px}
+.m-uf-financial .balance{padding-top:10px;width:100%;position:relative}
+.m-uf-financial .profit{color:#666;font-family:arial}
+.m-uf-financial .edit{position:absolute;right:0;top:12px}
+.m-uf-financial .detail{margin-top:35px}
+.m-uf-financial .detail .head{width:70px;font-size:12px;color:#999}
+.m-uf-financial .detail .value{color:#666;font-size:14px;font-family:arial}
+.m-uf-financial .detail .value.yield{color:#f60}
+.m-uf-financial #m-uf-financial-shift-to{margin-right:10px}
+.m-uf-financial-unactivated{position:relative}
+.m-uf-financial-unactivated .line1{position:absolute;top:22px;left:0}
+.m-uf-financial-unactivated .line2{position:absolute;top:50px;left:0}
+.m-uf-financial-unactivated .line3{position:absolute;top:110px;left:0}
+.m-uf-financial-unactivated em{color:#f60;padding:0 4px 0 4px;font-style:normal}
+.g-uf-module-box.unactivated{background:49px 22px no-repeat url(http://simg1.qunarzz.com/usercenter/homepage/financial_unactivated_bg.png)}
+.m-uf-redenvelope-null{text-align:center;padding-top:90px}
+.m-uf-redenvelope{padding-top:16px}
+.m-uf-redenvelope .item{padding:0 0 0 21px;margin-bottom:16px;overflow:hidden;white-space:nowrap;background:url(http://simg1.qunarzz.com/usercenter/homepage/icon_redenvelope.png) no-repeat}
+.m-uf-redenvelope .item a{color:#666;text-decoration:none}
+.m-uf-passenger{text-align:center}
+.m-uf-passenger .add-btn{display:inline-block;padding:1px 10px 0 10px;background:#f4faff;border:dashed 1px #bedcf8}
+.m-uf-passenger .add-btn:hover{background:transparent}
+.m-uf-passenger .add-btn .sign{font-size:20px;color:#8fbfec;font-family:arial}
+.m-uf-passenger .add-btn .label{position:relative;top:-3px;color:#666}
+.m-uf-passenger .passengers{margin:16px 0;margin-bottom:16px;font-size:12px;color:#666}
+.m-uf-passenger .passengers .passenger{position:relative;width:100%;height:32px;background:#f6f7f7}
+.m-uf-passenger .passengers .passenger .info{position:absolute;top:0;height:32px;line-height:32px}
+.m-uf-passenger .passengers .passenger .name{left:16px}
+.m-uf-passenger .passengers .passenger .mobile{right:16px;text-align:right}
+.m-uf-order-empty{width:100%;padding:47px 0 47px 0;text-align:center}
+.m-uf-order-empty a{color:#0088a4;border-bottom:dotted 1px #0088a4}
+.m-guesslove-load-error{height:148px;width:717px;background:url(http://simg1.qunarzz.com/usercenter/homepage/fav_load_error.png) no-repeat 262px 30px;_background-image:url(http://simg1.qunarzz.com/usercenter/homepage/fav_load_error_white_bg.png)}
+.g-uf-modulebox-active .m-guesslove-load-error{_background-image:url(http://simg1.qunarzz.com/usercenter/homepage/fav_load_error_grey_bg.png)}
+.m-uf-guesslove{float:left;position:absolute;left:0;bottom:16px;width:750px}
+.m-uf-guesslove .top-line{width:100%;height:14px}
+.m-uf-guesslove .top-line .title{float:left}
+.m-uf-guesslove .item{display:block;width:170px;float:left;position:relative;overflow:hidden}
+.m-uf-guesslove .item .img-ctn{height:118px;position:relative;overflow:hidden;cursor:pointer}
+.m-uf-guesslove .item .shadow{position:absolute;bottom:0;left:0;width:170px;height:30px;background:#000;filter:alpha(opacity=50);-moz-opacity:.5;opacity:.5}
+.m-uf-guesslove img{display:block;border:none 0}
+.m-uf-guesslove .item .prices{position:relative;height:30px;background:#fcfdfd}
+.m-uf-guesslove .item .prices .price{padding:6px 0 0 8px;color:#f55}
+.m-uf-guesslove .item .prices .symbol{font:12px arial}
+.m-uf-guesslove .item .prices .num{font:bold 14px tahoma}
+.m-uf-guesslove .item .prices .ori-price{position:absolute;top:8px;right:8px;height:30px;line-height:30px;color:#999;font:12px tahoma}
+.m-uf-guesslove .item .prices .ori-price em{text-decoration:line-through;font-style:normal}
+.m-uf-guesslove .spacing{width:12px;height:1px;float:left}
+.m-uf-guesslove .item .pic-desc{width:100%;position:absolute;bottom:0;left:0;z-index:10;color:#fff}
+.m-uf-guesslove .item .pic-desc .pic-desc-title{padding:8px;overflow:hidden;font-weight:bold;white-space:nowrap}
+.m-uf-guesslove .item .pic-desc .pic-desc-feature{padding:8px;padding-top:0;line-height:20px;color:#ddd;display:none}
+.m-uf-order-counts .item-name{color:#666;padding-right:5px}
+.m-uf-order-counts .count{color:#999;cursor:pointer}
+.m-uf-order-counts .count-em{color:#f60}
+.m-uf-order-counts .spacer{color:#ddd;padding:0 10px}
+.m-uf-orders-wrapper{margin-top:20px}
+.m-uf-order{position:relative;width:100%;height:72px;margin-bottom:8px;background:#f6f7f7}
+.m-uf-order .block{position:absolute}
+.m-uf-order .content-block{top:15px;left:150px;width:340px;font-size:12px;color:#555;text-align:left}
+.m-uf-order .content-block a{color:#0069ca;text-decoration:none}
+.m-uf-order .content-block .detail{margin:10px 0;line-height:14px;height:14px}
+.m-uf-order .price-block{top:33px;right:160px;font-size:14px;font-family:tahoma;color:#666;text-align:right}
+.m-uf-order .price-block em{font-family:arial}
+.m-uf-order .button-block{top:14px;right:16px;min-width:80px;_width:80px;text-align:center}
+.m-uf-order .button-block-status-only{top:33px}
+.m-uf-order .button-block .status{display:inline-block;margin-bottom:8px;color:#f55;white-space:nowrap}
+.m-uf-order .button-block .ui-uf-button-link{cursor:auto}
+.m-uf-order .button-block .ui-uf-button-dull{background:#fff;color:#666}
+.m-uf-order .button-block .ui-uf-button-dull:hover{background:#fff;border:solid 1px #0088a4;color:#0088a4}
+.m-uf-order .img-block{top:6px;left:0;width:136px;height:60px;overflow:hidden}
+.m-uf-order .img-block img{width:88px}
+.m-uf-order img{border:none 0}
+.m-uf-order .order-count{display:inline-block;padding:1px 7px;margin-left:10px;background:#0069ca;color:#fff}
+.m-uf-order-hotel .icon{float:left;width:14px;height:14px;display:inline-block;padding:0;zoom:1;background:url(http://simg1.qunarzz.com/usercenter/homepage/hotel_action_icons.png)}
+.m-uf-order-hotel .icon-zhu{background-position:0 0}
+.m-uf-order-hotel .icon-li{background-position:-14px}
+.m-uf-order-hotel .date-in,.m-uf-order-hotel .date-out{float:left;margin-left:5px;width:130px}
+.g-uf-module-box{border:solid 1px #e7ecef;padding:16px 16px 0 16px;min-height:30px;font-size:12px;color:#999;font-family:tahoma,arial,"Hiragino Sans GB",simsun}
+.g-uf-module-box.no-top{border-top:none 0}
+.g-uf-module-box.col-xoo .inner{width:428px}
+.g-uf-module-box.col-oxo .inner{width:254px}
+.g-uf-module-box.col-xxo .inner{width:717px}
+.g-uf-module-box.col-oox .inner{width:238px}
+.g-uf-module-box.col-xxx .inner{width:1006px}
+.g-uf-module-box .inner{overflow:hidden}
+.g-uf-module-box .top-line{width:100%;height:14px;position:relative;overflow:visible}
+.g-uf-module-box .top-line .title-ctn{height:16px;line-height:16px;overflow:visible;float:left}
+.g-uf-module-box .top-line .title{border-left:solid 3px #0088a4;padding:0 8px 0 5px;vertical-align:middle;font-size:14px;font-weight:bold;color:#333}
+.g-uf-module-box .top-line .tabs{float:right;font-size:12px;color:#999}
+.g-uf-module-box .top-line .funcs{position:absolute;right:0;top:0;font-size:12px;color:#999;display:none}
+.g-uf-module-box .top-line .funcs a{color:#999;text-decoration:none}
+.g-uf-module-box .top-line .funcs a:hover{color:#0088a4}
+.g-uf-module-box .top-line .subtitle{float:left;padding-left:24px}
+.g-uf-module-box .content{overflow:hidden;position:relative}
+.g-uf-module-box .content .error-tip{padding-top:30px;text-align:center}
+.uf-box-spacing-horiz{clear:both;height:16px;width:1px;overflow:hidden}
+.g-uf-module-box-no-left-border{border-left:solid 1px #fff}
+.g-uf-module-box-no-right-border{border-right:solid 1px #fff}
+.g-uf-module-box-no-top-border{border-top:solid 1px #fff}
+.g-uf-module-box-no-bottom-border{border-bottom:solid 1px #fff}
+.g-uf-modulebox-active{border-color:#36bbba;background:#fafbfb}
